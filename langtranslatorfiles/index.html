@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Language Translator</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css">
+      
+    </link>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Language Translator</h1>
+
+      <div class="text-container">
+        <textarea
+          id="sourceText"
+          placeholder="Enter the source text"
+        ></textarea>
+
+        <i class="fas fa-exchange-alt translation-icon" title="Translate"></i>
+
+        <textarea
+          id="translatedText"
+          placeholder="Translated text"
+          readonly
+        ></textarea>
+      </div>
+      <div class="top">
+        <div class="languages">
+          <select name="" id="sourceLanguage">
+            <option value="Error">select</option>
+            <option value="fr">French</option>
+            <option value="es">Spanish</option>
+            <option value="de">German</option>
+            <option value="en">English</option>
+            <option value="te">Telugu</option>
+            <option value="hi">Hindi</option>
+            <option value="ur">Urdu</option>
+            <option value="ta">Tamil</option>
+            <option value="ar">Arabic</option>
+            <option value="pa">Punjabi</option>
+            <option value="bn">Bengali</option>
+            <option value="zh-TW">Chinese</option>
+            <option value="gu">Gujarati</option>
+            <option value="ko">Koren</option>
+            <option value="ml">Malayalam</option>
+            <option value="mr">Marati</option>
+            <option value="ja">Japanese</option>
+            <option value="ne">Nepali</option>
+            <option value="th">Thai</option>
+            <option value="la">Latin</option>
+            <option value="da">Dogri</option>
+            <option value="pt">Portuguese</option>
+            <option value="el">Greek</option>
+            <option value="it">Italain</option>
+            <option value="sv">Swedish</option>
+            <option value="so">Somali</option>
+            <option value="is">Icelandic</option>
+            <option value="bm">Bambara</option>
+            <option value="be">Belarusian</option>
+            <option value="bg">Bulgarian</option>
+            <option value="tr">Turkish</option>
+            <option value="uk">Ukranian</option>
+            <option value="sr">Serbian</option>
+            <option value="ht">Haitian</option>
+            <option value="pl">Polish</option>
+            <option value="ru">Russian</option>
+            <option value="tr">Turkish</option>
+            <option value="kk">Kazakh</option>
+            <option value="kri">Krio</option>
+          </select>
+        </div>
+        <div class="text-container">
+          <i id="icon-1"
+            class="fas fa-microphone speech-icon"
+            title="Speech Recognition"
+          ></i>
+        </div>
+        <div>
+          <select name="" id="targetLanguage" style="margin-left: 90px">
+            <option value="Error">select</option>
+            <option value="fr">French</option>
+            <option value="es">Spanish</option>
+            <option value="de">German</option>
+            <option value="en">English</option>
+            <option value="te">Telugu</option>
+            <option value="hi">Hindi</option>
+            <option value="ur">Urdu</option>
+            <option value="ta">Tamil</option>
+            <option value="ar">Arabic</option>
+            <option value="pa">Punjabi</option>
+            <option value="bn">Bengali</option>
+            <option value="zh-TW">Chinese</option>
+            <option value="gu">Gujarati</option>
+            <option value="ko">Koren</option>
+            <option value="ml">Malayalam</option>
+            <option value="mr">Marati</option>
+            <option value="ja">Japanese</option>
+            <option value="ne">Nepali</option>
+            <option value="th">Thai</option>
+            <option value="la">Latin</option>
+            <option value="da">Dogri</option>
+            <option value="pt">Portuguese</option>
+            <option value="el">Greek</option>
+            <option value="it">Italain</option>
+            <option value="sv">Swedish</option>
+            <option value="so">Somali</option>
+            <option value="is">Icelandic</option>
+            <option value="bm">Bambara</option>
+            <option value="be">Belarusian</option>
+            <option value="bg">Bulgarian</option>
+            <option value="tr">Turkish</option>
+            <option value="uk">Ukranian</option>
+            <option value="sr">Serbian</option>
+            <option value="ht">Haitian</option>
+            <option value="pl">Polish</option>
+            <option value="ru">Russian</option>
+            <option value="tr">Turkish</option>
+            <option value="kk">Kazakh</option>
+            <option value="kri">Krio</option>
+          </select>
+        </div>
+        <div>
+          <i id="icon-2"
+            class="fas fa-microphone speech-icon"
+            title="Speech Recognition"
+          ></i>
+        </div>
+      </div>
+      <button id="button" placeholder="Speak or click the microphone icon">
+        translate
+      </button>
+    </div>
+
+    <!-- Add the Font Awesome library by adding this line to the <head> section -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

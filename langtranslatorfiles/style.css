@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+  }
+  
+  .container {
+    max-width: 800px;
+    max-height: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .text-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  textarea {
+    width: 100%;
+    min-height: 150px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    font-size: 16px;
+  }
+  
+  .translation-icon {
+    font-size: 25px;
+  
+    color: #666;
+    cursor: pointer;
+  }
+  .speech-icon {
+    font-size: 25px;
+    color: #666;
+    cursor: pointer;
+    margin-left: 30px;
+  }
+  
+  .translation-icon:hover,
+  .speech-icon:hover {
+    color: #333;
+  }
+  #button {
+    color: red;
+    background-color: aqua;
+    border: 2px;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-left: 320px;
+    margin-top: 10px;
+  }
+  
+  select {
+    font-size: 18px;
+    width:200px;
+    height:30px;
+    border-radius: 20px;
+    color: rgb(30, 0, 255);
+    margin-top: 0px;
+  }
+  .top {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #translatedText{
+    background-color: rgb(255, 0, 149);
+    color:white;
+  }
+  #sourceText{
+    background-color: rgb(0, 255, 106);
+  }
